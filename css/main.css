@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  background-color: #000100;
+  
+}
+
+
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:100%;
+	height:95vh;
+	background-image:url("/Portfolio/bg.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:80px;
+    width: fit-content;
+	background-color:#ffffff;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+
+nav ul li a{
+	margin:30px;
+	font-family: 'Quicksand', sans-serif;
+	color:#505050;
+	font-size: 15px;
+	font-weight:700;
+}
+.logo{
+	font-family:RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
+}
+
+.fa-user-circle:before {
+  content: "\f2bd";
+  color: aqua;
+}
+
+.fa-briefcase:before {
+  content: "\f0b1";
+  color: aqua;
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+  color: aqua;
+}
+
+/* Our First Container For Hover Effect */
+
+#text-container{
+    border: "white";
+    width: 250px;
+    height: 200px;
+    margin: 120px auto 0 auto;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+#redDiv{
+    width: 150px;
+    height: 150px;
+    margin: 120px auto 0 auto;
+}
+
+#redDiv, #blueDiv{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    line-height: normal;
+}
+
+#redDiv{
+    background-color: "white";
+    color: #ffffff;
+}
+
+#redDiv:hover{
+    margin-top: -120px;
+}
+
+#blueDiv{
+    background-color: "white";
+    color: #FF0000;
+}
+
+
+
+/* Our Second Container For Hover Effect */
+
+/* Our First Container For Hover Effect */
+
+#text-container2{
+    border: "white";
+    width: 250px;
+    height: 200px;
+    margin: 120px auto 0 auto;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: -60px;
+}
+
+#redDiv2{
+    width: 150px;
+    height: 150px;
+    margin: 120px auto 0 auto;
+}
+
+#redDiv2, #blueDiv2{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#redDiv2{
+    background-color: "white";
+    color: #FF0000;
+}
+
+#redDiv2:hover{
+    margin-top: -100px;
+}
+
+#blueDiv2{
+    background-color: "white";
+    color:#FF0000;
+}
+
+/* Our Third Container For Hover Effect */
+
+#text-container3{
+    border: "white";
+    width: 250px;
+    height: 200px;
+    margin: 120px auto 0 auto;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: -50px;
+}
+
+#redDiv3{
+    width: 150px;
+    height: 150px;
+    margin: 120px auto 0 auto;
+}
+
+#redDiv3, #blueDiv3{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#redDiv3{
+    background-color: "white";
+    color: #FF0000;
+}
+
+#redDiv3:hover{
+    margin-top: -100px;
+}
+
+#blueDiv3{
+    background-color: "white";
+    color: #FF0000;
+}
+
+/* About Page */
+
+.main-header{
+    position: absolute;
+    top: -30px;
+    right: 25px;
+    color: azure;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-headerH1{
+    color: azure;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 110vh;
+    width: 100%;
+    background-color: #000100;
+    position: relative;
+
+
+}
+
+.img{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.name-text{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 2px;
+    transform: translateY(50%);
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 60vw;
+
+}
+
+.name-text2{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 2px;
+    transform: translateY(5%);
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 60vw;
+
+}
+
+.name-text3{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 2px;
+    transform: translateY(10%);
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 60vw;
+
+}
+
+
+
+div.Heading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    
+
+
+}
+
+.head_h1{
+    color: aqua;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.h2{
+    color: #2b2b2b;
+    font-family: "Times New Roman",Times, serif;
+    font-size: 20px;
+
+}
+
+p1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    max-height: 110%;
+    justify-content: center;
+    
+}
+
+p2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    max-height: 110%;
+    justify-content: center;
+}
+
+p3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    max-height: 110%;
+    justify-content: center;
+}
+
